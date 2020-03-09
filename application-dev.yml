@@ -18,8 +18,8 @@ spring:
     username: guest
     password: guest
   redis:
-    host: paascloud-db-redis
-    password: paascloud@redis
+    host: localhost
+    password: 123456
     port: 6379
     timeout: 0
   datasource:
@@ -136,4 +136,4 @@ paascloud:
       pcPath: /data/file/qrCode/alipay
       qiniuPath: alipay/QRCode/
   zk:
-    zkAddressList: paascloud-provider-zk:2181
+    zkAddressList: localhost:2181
