@@ -12,6 +12,7 @@ spring:
   aop:
     proxy-target-class: true
     auto: true
+
   rabbitmq:
     host: localhost
     port: 5672
